@@ -4,3 +4,7 @@ print("Promedio general:", promedio)
 print("Nota maxima:", max(notas))
 print("Nota minima:", min(notas))
 print("Cantidad de notas:", len(notas))
+if promedio >= 11:
+    print("Aprobado")
+else:
+    print("Desaprobado")
