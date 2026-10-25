@@ -1,10 +1,12 @@
+import statistics         
 notas = [14, 16, 11, 18, 13]
 promedio = sum(notas) / len(notas)
 print("Promedio general:", promedio)
 print("Nota maxima:", max(notas))
 print("Nota minima:", min(notas))
-print("Cantidad de notas:", len(notas))
+print("Cantidad de notas:", len(notas))        
+print ("mediana de notas" , statistics.median(notas))
 if promedio >= 11:
     print("Aprobado")
 else:
-    print("Desaprobado")
+    print("Desaprobado")     
